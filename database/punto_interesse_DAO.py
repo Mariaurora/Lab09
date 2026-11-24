@@ -35,3 +35,6 @@ class PuntoInteresseDAO:
             cnx.close()
 
         return result
+if __name__ == '__main__':
+    punto=PuntoInteresseDAO.get_punti_interesse()
+    print(punto)
